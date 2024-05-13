@@ -36,3 +36,82 @@
     transform: rotate(360deg);
   }
 }
+
+.appContainer, .shop-text, .wrapper, .content-wrapper {
+  font: 16px Combria;
+  overflow: hidden;
+}
+
+#appNavBar, #header {
+  background-image: linear-gradient(#AD6BC2, #951989);
+}
+
+.description-head {
+  background-image: linear-gradient(#AD6BC2, #951989);
+}
+
+#header {
+  overflow: hidden;
+}
+
+.header-btn {
+  width: 100px;
+  height: 45px;
+  border: none;
+  color: #951989;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.description-btn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  font-weight: bold;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.card {
+  background-color: #951989;
+  padding: 0;
+  color: #fff;
+}
+
+.card-btn {
+  display: inline-block;
+  width: 180px;
+  height: 40px;
+  font-weight: bold;
+  background-color: #fff;
+  border: 1px solid #951989;
+  color: #951989;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.card-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#footer {
+  background-image: linear-gradient(#AD6BC2, #951989);
+  color: #fff;
+}
+
+#footer-bar {
+  text-align: center;
+  border-top: 1px solid #fff;
+  padding: 5px;
+  height: 2rem;
+}
